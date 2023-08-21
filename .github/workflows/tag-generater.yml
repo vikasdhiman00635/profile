@@ -1,8 +1,8 @@
--name: tag version
+name: Bump version
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
